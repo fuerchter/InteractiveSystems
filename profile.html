@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Retrade</title>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="import" href="top-bar.html">
+	</head>
+	<body>
+	<div class="container-fluid">
+		<!-- not responsive? (if you make the window too small?) -->
+		<h1><a href="members.html">Retrade</a></h1>
+		<div class="top-bar">
+			<ul class="nav nav-pills pull-left">
+				<li><a href="members.html"><b>Members</b></a></li>
+				<li><a href="#">Database</a></li><!-- search bar right at the top instead of link? -->
+				<li><a href="#">Recommended</a></li><!-- should only be shown when you are logged in? -->
+			</ul>
+
+			<ul class="nav nav-pills  pull-right">
+				<li class="active"><a href=""><b>My Profile</b></a></li><!-- should only be shown when you are logged in? else show registration/login form -->
+				<li><a href="#">Messages</a></li>
+			</ul>
+		</div>
+	
+		<br>
+		<hr>
+		
+		<!-- Own profile and foreign profile differ, since a user can only change his own profile! -->
+		<table class="table">
+			<caption><img src="fuerchter.png"></img> fuerchter's games <a href="#">Message fuerchter</a></caption><!-- Has to be linked to db -->
+			<thead>
+				<tr><th>Name</th><th>Platform</th><th>Region</th><th></th></tr>
+			</thead>
+			<tr><td>SMW</td><td>SNES</td><td>NTSC-U</td><td>!!!SELLING</td></tr>
+			<tr><td>Good gaim 200</td><td>SNES</td><td>NTSC-J</td><td>!!!LOOKING FOR</td></tr>
+		</table>
+		</div>
+	</body>
+</html>
